@@ -14,7 +14,7 @@ const Home = ({ data }) => {
   // const Bannerlink = data.blockContentBannerBlock.field_content_link
   return (
     <Layout>
-      <section className= {heroImage} >
+      <section>
         <div>
           <GatsbyImage image={image}  alt= {block.field_title}/>
           <div className='container'>  
